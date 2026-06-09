@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota.guru</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            /* Fullscreen nature background */
+            background: url('Beauty of Life David Vig.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+        .container { 
+            text-align: center; 
+            padding: 3rem 2.5rem; 
+            max-width: 420px; 
+            /* 50% Transparent White Frame */
+            background: rgba(255, 255, 255, 0.5);
+            /* Frosty glass blur effect (modern UI standard) */
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 16px;
+            /* Ultra-subtle shadow for depth over the background */
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+            /* Crisp boundary edge */
+            border: 1px solid rgba(255, 255, 255, 0.4);
+        }
+        h1 { 
+            font-size: 2.8rem; 
+            font-weight: 700; 
+            letter-spacing: -0.05em; 
+            margin-top: 0;
+            margin-bottom: 0.5rem; 
+            /* Custom Brand Color */
+            color: rgb(100, 70, 70); 
+            /* Drop shadow to keep text crisp over light background areas */
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        p { 
+            /* Deep slate gray for optimal readability over 50% white */
+            color: #3a3a3c; 
+            font-size: 1.15rem; 
+            line-height: 1.6; 
+            margin-bottom: 2.5rem; 
+            font-weight: 400;
+        }
+        .btn { 
+            display: inline-block; 
+            /* Leaf green for Button */
+            background: rgb(55, 90, 65); 
+            /* White text inside the green button */
+            color: #ffffff; 
+            padding: 16px 36px; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            font-weight: 600; 
+            font-size: 1rem;
+            letter-spacing: -0.01em;
+            box-shadow: 0 4px 14px rgba(151, 225, 161, 0.4);
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .btn:hover { 
+            opacity: 0.95;
+            transform: translateY(-1px);
+        }
+        .btn:active {
+            transform: translateY(1px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>not a guru</h1>
+        <p>Personal transformation. Guidance. Connection.</p>
+        <a href="https://calendly.com/justin-nota/1-on-1" class="btn">Schedule an Appointment</a>
+    </div>
+</body>
+</html>
